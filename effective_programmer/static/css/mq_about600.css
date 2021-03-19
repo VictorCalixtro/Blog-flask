@@ -1,0 +1,247 @@
+
+/* This Code deals with the footer */
+footer nav a {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    background-color: #1b1c1d;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+footer nav a:hover {
+    background-color: royalblue;
+}
+
+/* Turns all text white color, good because we can now read header and footer  */
+html {
+    font-family: 'Cantarell', sans-serif;
+    color: whitesmoke;
+    background-color: white;
+}
+
+footer{
+    position: absolute;
+
+    width: 100%;
+    height: 2.6rem;
+
+}
+
+
+/*  Code for the header begins    */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    background-color: rgba(0,0,0,.6);
+}
+
+header nav {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+header a:hover {
+    color: #41c8ff;
+}
+
+header a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header section {
+    display: none;
+}
+
+/*  Main section begins    */
+
+#cta {
+
+    /* set the height of the cta container */
+    height: 300px;
+
+    /* set the color of the cta container */
+    background: url("../img/fractal.jpg");
+    background-size: cover;
+    /* center text and button containers */
+    /*      #cta-txt, #cta-btn */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#cta-txt {
+
+    /* format text */
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: white;
+
+    /* center text old fashioned-way */
+    text-align: center;
+}
+
+
+.heading-question {
+
+    /* format text */
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: white;
+
+    /* center text old fashioned-way */
+    text-align: center;
+}
+
+.written-articles {
+
+    padding: 12px;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    min-width: 85%;
+    line-height: 1;
+
+
+}
+
+.border-black   {
+
+    margin: 20px;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+
+    transition: 1s;
+}
+
+.border-black:hover   {
+    animation: pulse 2s infinite;
+
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.written-articles-description   {
+
+
+    background-color: white;
+    padding: 12px;
+    color: black;
+
+}
+
+#cta img{
+
+
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+}
+
+/*  The about.html code begins here  */
+
+
+.about-formatting {
+    display: inline;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+.about-text {
+
+    /* format text */
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: black;
+
+    /* center text old fashioned-way */
+    text-align: center;
+    /*This line keeps the text from overlapping when the browser gets smaller*/
+    line-height: 1;
+    max-width: 446px;
+    padding: 20px;
+
+
+}
+
+.article-format-length{
+
+    display: inline;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 1;
+
+
+
+}
+
+
+
+html,body{ overflow-x: hidden; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

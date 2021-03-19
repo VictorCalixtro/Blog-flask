@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn to program.">
+    <link href="https://fonts.googleapis.com/css?family=Cantarell:400,700|Kotta+One" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/mcleod-reset.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/mq_800-plus.css" media="(min-width: 800px)">
+    <link rel="stylesheet" href="../static/css/mq_about600.css" media="(max-width: 600px)">
+
+</head>
+<body>
+
+<!-- BEGIN SVG DEFINITIONS -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="universal-access" viewBox="0 0 100 100">
+        <path d="M50,89.9c-21.6,0-39.1-17.5-39.1-39.1S28.4,11.8,50,11.8c21.6,0,39.1,17.5,39.1,39.1S71.6,89.9,50,89.9z M16.5,50.9
+		c0,18.4,15,33.5,33.5,33.5s33.5-15,33.5-33.5S68.4,17.4,50,17.4S16.5,32.4,16.5,50.9z M50,81.6c-17,0-30.7-13.7-30.7-30.7
+		S33,20.2,50,20.2c17,0,30.7,13.7,30.7,30.7S67,81.6,50,81.6z M67.5,38.4c-6.2,1.5-11.9,2.7-17.5,2.7s-11.2-1.2-17.5-2.7
+		c-1.5-0.3-3,0.6-3.4,2c-0.3,1.5,0.6,3,2,3.4c4.6,1.1,8.9,2,13.2,2.5c-0.2,14.7-1.8,18.8-3.6,23.5l-0.4,0.9
+		c-0.6,1.4,0.2,3.1,1.6,3.6c0.3,0.1,0.7,0.2,1,0.2c1.1,0,2.2-0.7,2.6-1.8l0.3-0.9c1.2-3.1,2.4-6.1,3.1-11.3h1.8
+		c0.7,5.2,1.9,8.2,3.1,11.3l0.3,0.9c0.4,1.1,1.5,1.8,2.6,1.8c0.3,0,0.7,0,1-0.2c1.4-0.6,2.2-2.2,1.6-3.6l-0.4-0.9
+		c-1.8-4.7-3.4-8.8-3.6-23.5c4.3-0.5,8.6-1.4,13.2-2.5c1.5-0.3,2.4-1.8,2-3.4C70.5,39,69,38.1,67.5,38.4z M50,28.5
+		c-3.1,0-5.6,2.5-5.6,5.6s2.5,5.6,5.6,5.6c3.1,0,5.6-2.5,5.6-5.6S53.1,28.5,50,28.5z"/>
+    </symbol>
+    <symbol id="home" viewBox="0 0 100 100">
+        <path d="M82.1,55.3c-0.2,0.3-0.6,0.4-0.9,0.5c0,0-0.1,0-0.1,0c-0.3,0-0.7-0.1-0.9-0.3L50,30.3L19.8,55.4c-0.3,0.2-0.7,0.3-1,0.3
+		c-0.3,0-0.7-0.2-0.9-0.5L15.2,52c-0.5-0.6-0.4-1.5,0.2-2L46.7,24c1.8-1.5,4.8-1.5,6.6,0L64,32.9v-8.5c0-0.8,0.6-1.4,1.4-1.4h8.4
+		c0.8,0,1.4,0.6,1.4,1.4v17.8l9.5,7.9c0.6,0.5,0.7,1.4,0.2,2L82.1,55.3z M75.1,76c0,1.5-1.3,2.8-2.8,2.8H55.6V62H44.4v16.7H27.7
+		c-1.5,0-2.8-1.3-2.8-2.8V55.1c0-0.1,0-0.2,0-0.3L50,34.1l25.1,20.7c0,0.1,0,0.2,0,0.3V76z"/>
+    </symbol>
+    <symbol id="briefcase" viewBox="0 0 100 100">
+        <path d="M89.1,46.7H10.9V29.9c0-3.8,3.1-7,7-7h15.3v-7c0-2.3,1.9-4.2,4.2-4.2h25.1c2.3,0,4.2,1.9,4.2,4.2v7h15.3c3.8,0,7,3.1,7,7
+		V46.7z M89.1,71.8c0,3.8-3.1,7-7,7H17.9c-3.8,0-7-3.1-7-7V50.9h29.3v7c0,1.5,1.3,2.8,2.8,2.8h14c1.5,0,2.8-1.3,2.8-2.8v-7h29.3
+		V71.8z M61.2,23v-5.6H38.8V23H61.2z M55.6,56.4H44.4v-5.6h11.2V56.4z"/>
+    </symbol>
+    <symbol id="pencil" viewBox="0 0 100 100">
+        <path d="M71,48.1L34.6,84.5H16.4V66.3l36.4-36.4L71,48.1z M36.3,74.9L26,64.6l-4,4v4.7h5.6v5.6h4.7L36.3,74.9z M54.2,37.3
+		c-0.3,0-0.5,0.1-0.7,0.3L29.7,61.3c-0.2,0.2-0.3,0.5-0.3,0.7c0,0.6,0.4,1,1,1c0.3,0,0.5-0.1,0.7-0.3L54.8,39
+		c0.2-0.2,0.3-0.5,0.3-0.7C55.2,37.7,54.8,37.3,54.2,37.3z M81,38l-7.3,7.3L55.6,27.1l7.3-7.2c1-1,2.4-1.7,3.9-1.7
+		c1.5,0,2.9,0.6,4,1.7L81,30.1c1,1,1.6,2.5,1.6,4C82.7,35.6,82.1,37,81,38z"/>
+    </symbol>
+    <symbol id="gear" viewBox="0 0 100 100">
+        <path d="M83.6,55.8c0,0.7-0.5,1.4-1.2,1.6l-8.1,1.2c-0.5,1.4-1,2.7-1.7,4c1.5,2.1,3.1,4.1,4.7,6c0.3,0.3,0.4,0.7,0.4,1.1
+		c0,0.4-0.1,0.7-0.4,1c-1,1.4-7,7.8-8.4,7.8c-0.4,0-0.8-0.2-1.1-0.4l-6-4.7c-1.3,0.7-2.6,1.2-4,1.7c-0.3,2.7-0.6,5.5-1.3,8.1
+		c-0.2,0.7-0.8,1.2-1.6,1.2h-9.7c-0.8,0-1.5-0.6-1.6-1.3l-1.2-8c-1.4-0.4-2.7-1-3.9-1.6l-6.2,4.7c-0.3,0.3-0.7,0.4-1.1,0.4
+		s-0.8-0.2-1.1-0.5c-2.3-2.1-5.4-4.8-7.2-7.3c-0.2-0.3-0.3-0.7-0.3-1c0-0.4,0.1-0.7,0.3-1c1.5-2,3.1-3.9,4.6-6
+		c-0.7-1.4-1.4-2.8-1.8-4.3l-8-1.2c-0.7-0.1-1.3-0.8-1.3-1.6v-9.7c0-0.7,0.5-1.4,1.2-1.6l8.1-1.2c0.4-1.4,1-2.7,1.7-4
+		c-1.5-2.1-3.1-4.1-4.7-6c-0.3-0.3-0.4-0.7-0.4-1c0-0.4,0.2-0.7,0.4-1c1-1.4,7-7.8,8.4-7.8c0.4,0,0.8,0.2,1.1,0.4l6,4.7
+		c1.3-0.7,2.6-1.2,4-1.7c0.3-2.7,0.6-5.5,1.3-8.1c0.2-0.7,0.8-1.2,1.6-1.2h9.7c0.8,0,1.5,0.6,1.6,1.3l1.2,8c1.4,0.4,2.7,1,3.9,1.6
+		l6.2-4.7c0.3-0.3,0.7-0.4,1-0.4s0.8,0.2,1.1,0.4c2.3,2.1,5.4,4.9,7.2,7.4c0.2,0.3,0.3,0.6,0.3,1c0,0.4-0.1,0.7-0.3,1
+		c-1.5,2-3.1,3.9-4.6,6c0.7,1.4,1.4,2.8,1.8,4.3l8,1.2c0.7,0.1,1.3,0.8,1.3,1.6V55.8z M50,39.7c-6.2,0-11.2,5-11.2,11.2
+		c0,6.2,5,11.2,11.2,11.2c6.2,0,11.2-5,11.2-11.2C61.2,44.7,56.2,39.7,50,39.7z"/>
+    </symbol>
+
+    <symbol id="linkedin" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5
+     32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2
+     96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9
+     54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+
+        <symbol id="email" viewBox="0 0 512 512">
+            <path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48
+    48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4
+    56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2
+    73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5
+    64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
+
+
+        </symbol>
+
+        <symbol id="question" viewBox="0 0 384 512">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="question" class="svg-inline--fa fa-question fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 384 512"><path fill="currentColor" d="M202.021 0C122.202 0 70.503 32.703 29.914 91.026c-7.363 10.58-5.093 25.086 5.178 32.874l43.138 32.709c10.373 7.865
+        25.132 6.026 33.253-4.148 25.049-31.381 43.63-49.449 82.757-49.449 30.764 0 68.816 19.799 68.816 49.631 0 22.552-18.617 34.134-48.993 51.164-35.423 19.86-82.299
+        44.576-82.299 106.405V320c0 13.255 10.745 24 24 24h72.471c13.255 0 24-10.745 24-24v-5.773c0-42.86 125.268-44.645 125.268-160.627C377.504 66.256 286.902 0 202.021
+        0zM192 373.459c-38.196 0-69.271 31.075-69.271 69.271 0 38.195 31.075 69.27 69.271 69.27s69.271-31.075 69.271-69.271-31.075-69.27-69.271-69.27z"></path></svg>
+        </symbol>
+
+
+
+    </symbol>
+</svg>
+<!-- END SVG DEFINITIONS -->
+
+<header>
+    <nav>
+        <a href="/"><svg><use xlink:href="#home"></use></svg><h1>Home</h1></a>
+        <a href="/topics"><svg><use xlink:href="#briefcase"></use></svg><h2>Topics</h2></a>
+    </nav>
+
+
+
+
+    <section id="display-right">
+        <nav>
+            <a href="https://www.linkedin.com/in/victor-calixtro/"><svg><use xlink:href="#linkedin"></use></svg></a>
+            <a href="/about"><svg><use xlink:href="#question"></use></svg></a>
+            <a href="mailto: victordaniel0678@gmail.com"><svg><use xlink:href="#email"></use></svg></a>
+        </nav>
+    </section>
+
+</header>
+
+<main>
+
+    <section id="cta">
+        <img src="../static/img/photos/selfie.JPG">
+        <h2 id="cta-txt">Who is Victor Calixtro?</h2>
+
+    </section>
+
+    <div class="written-articles">
+
+        <section class="about-formatting">
+            <article class="article-format-length">
+                <p class="about-text">
+                    Hello everyone, my name is Victor and i'm a computer scientist.
+                    This is my personal blog in which I will write mostly about my software projects.
+                    I first began programming at the young age of 12 back in 2007 when I was introduced to bb coding to edit my myspace profile.
+                    My 12 year old brain was blown away that I could manipulate websites such as youtube by using simple bb tags to manipulate the comment section.
+                     </p>
+
+                <aside>
+                    <img     class="aboutpic" src="../static/img/photos/VictorEmmaLong.jpg">
+                </aside>
+
+                <p class="about-text">
+                    <br><br>In my spare time I enjoy going on camping/hiking trips, taking my dogs on walks, and playing video games.
+
+                </p>
+
+
+
+
+            </article>
+
+
+
+
+
+        </section>
+
+
+
+
+
+    </div>
+
+
+</main>
+
+
+
+<footer>
+
+    <nav>
+        <a href="https://www.linkedin.com/in/victor-calixtro/"><svg><use xlink:href="#linkedin"></use></svg>Linkedin</a>
+        <a href="/about"><svg><use xlink:href="#question"></use></svg>Who I am </a>
+        <a href="mailto: victordaniel0678@gmail.com"><svg><use xlink:href="#email"></use></svg>Email</a>
+    </nav>
+
+</footer>
+
+</body>
+</html>
